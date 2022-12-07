@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- aos -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!-- Font Awesome -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Bootstrap -->
+        <!-- CSS only -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+            crossorigin="anonymous"
+        />
+        <!-- JavaScript Bundle with Popper -->
+        <script
+            defer
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- Link Swiper's CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+        />
+
+        <!-- Custom styling -->
+        <link rel="stylesheet" href="css/style.css" />
+
+        <title>Inkedtech</title>
+    </head>
+    <body>
+        <!-- arrow -->
+        <a href="#top" class="navtop">
+            <i class="fa fa-arrow-up"></i>
+        </a>
+        <!-- arrow ends -->
+        <!-- Navbar  -->
+        <nav
+            id="top"
+            class="navbar navbar-expand-lg bg-light shadow-sm px-2 py-1"
+        >
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img
+                        src="./assests/Inkedtech Logo.png"
+                        alt="Logo"
+                        width="100"
+                        height="70"
+                        class="d-inline-block align-text-center logo"
+                    />
+                </a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav ms-auto me-lg-4 mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="course.html"
+                                >Our Courses</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="FAQs.html">FAQs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html"
+                                >Contact Us</a
+                            >
+                        </li>
+                    </ul>
+
+                    <button class="btn btn-custom" type="submit">
+                        Start learning
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Navbar ends -->
+
+        <!-- Swiper Slider -->
+
+        <div class="swiper custom-swipertop mySwiper rounded-2 m-3">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide-bg">
+                    <div class="slider-overlay">
+                        <div class="row">
+                            <div class="col">
+                                <h1>
+                                    Children’s voices matter
+                                    <!-- <span style="font-weight: 700">Succeed</span
+                                    >! -->
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide-bg2">
+                    <div class="slider-overlay">
+                        <div class="row">
+                            <div class="col">
+                                <h1>Children’s voices matter</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide-bg3">
+                    <div class="slider-overlay">
+                        <div class="row">
+                            <div class="col">
+                                <h1>
+                                    Children’s voices matter
+                                    <!-- <span style="font-weight: 700">Succeed</span
+                                    >! -->
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+        <!-- Swiper Slider ends -->
+
+        <!-- Cards -->
+        <section id="info">
+            <div class="container main-card">
+                <div
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    class="text-center h1 car-main"
+                    style="color: var(--black)"
+                >
+                    Welcome to
+                    <span style="color: var(--primary-color)">Inkedtech</span>
+                </div>
+                <div
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    class="text-center card-sub"
+                >
+                    Discover your child’s creative writing potential with our
+                    three courses
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row gap-md-0 gap-sm-1 gap-lg-2">
+                    <!-- <div
+                        aos-init
+                        aos-animation
+                        class="col-lg col-md-6 col-sm-12 mb-sm-2 mb-md-5 aos-init aos-animation"
+                        data-aos="fade-up"
+                        data-aos-delay="50"
+                    >
+                        <a href="coursedetails.html">
+                            <div class="card cards shadow-cust">
+                                <div class="img-cont">
+                                    <img src="./assests/bg2.jpg" alt="" />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Junior Writer Program
+                                    </h5>
+
+                                    <p class="card-text">
+                                        A creative writing workshop for children
+                                        in the age group of 6-8 years. Children
+                                        learn about building characters and
+                                        create their own illustrations. They
+                                        learn the rudimentary aspects of
+                                        plotting.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div> -->
+                    <!-- <div
+                        class="col-lg col-md-6 col-sm-12 mb-sm-2 mb-md-5"
+                        data-aos="fade-up"
+                        data-aos-delay="50"
+                    >
+                        <a href="coursedetails.html">
+                            <div class="card cards shadow-cust">
+                                <div class="img-cont">
+                                    <img src="./assests/bg3.jpg" alt="" />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Young Author Program
+                                    </h5>
+                                    <p class="card-text">
+                                        A creative writing workshop designed to
+                                        teach children in the age range of 9-16
+                                        years to write their own stories. Young
+                                        writers learn about effective
+                                        characterization, world-building and
+                                        plotting. Their stories are compiled
+                                        into an anthology every year. So far
+                                        four anthologies have been published.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div> -->
+                    <!-- <div
+                        class="col-lg col-md-6 col-sm-12 mb-sm-2 mb-md-5"
+                        data-aos="fade-up"
+                        data-aos-delay="50"
+                    >
+                        <a href="coursedetails.html">
+                            <div class="card cards shadow-cust">
+                                <div class="img-cont">
+                                    <img src="./assests/writng.jpg" alt="" />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Essay Writing Workshop
+                                    </h5>
+
+                                    <p class="card-text">
+                                        A non-fiction writing workshop for
+                                        children. Children learn about the kinds
+                                        of essays, how to organize content, and
+                                        create their own write-ups.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div> -->
+
+                    <div class="allevents">
+                        <a href="coursedetails.html">
+                            <div
+                                data-aos="fade-up"
+                                data-aos-duration="1000"
+                                class="eve"
+                            >
+                                <img
+                                    src="./assests/Junior Writer Image.jpg"
+                                    alt=""
+                                />
+                                <div class="overlaytxt">
+                                    <div class="text02">
+                                        <!-- <h4>01</h4> -->
+                                        <h2 class="jwp">
+                                            Junior Writer Program
+                                        </h2>
+                                        <p>
+                                            The Junior Writer Program (JWP) is
+                                            designed for 6-8 -year-olds to
+                                            introduce them to characterization
+                                            and the idea of plotting.
+                                        </p>
+
+                                        <!-- <button class="vmbtn" >View More</button> -->
+                                    </div>
+                                </div>
+                                <!-- <div class="img"> -->
+                                <!-- </div> -->
+                            </div>
+                        </a>
+                        <a href="yap.html">
+                            <div
+                                data-aos="fade-up"
+                                data-aos-duration="1000"
+                                class="eve"
+                            >
+                                <img src="./assests/YAP Image.jpg" alt="" />
+                                <div class="overlaytxt">
+                                    <div class="text02">
+                                        <!-- <h4>02</h4> -->
+                                        <h2>Young Author Program</h2>
+                                        <p>
+                                            The Young Author Program is a
+                                            Creative Writing Workshop in English
+                                            designed to teach children in the
+                                            age group of 9 -16 years the nuances
+                                            of writing fiction.
+                                        </p>
+                                        <!-- <button class="vmbtn" >View More</button> -->
+                                    </div>
+                                </div>
+                                <!-- <div class="img"> -->
+                                <!-- </div> -->
+                            </div>
+                        </a>
+                        <a href="essaywritting.html">
+                            <div
+                                data-aos="fade-up"
+                                data-aos-duration="1000"
+                                class="eve"
+                            >
+                                <img
+                                    src="./assests/Essay Writing Image.jpg"
+                                    alt=""
+                                />
+                                <div class="overlaytxt">
+                                    <div class="text02">
+                                        <!-- <h4>03</h4> -->
+                                        <h2>Essay Writing Workshop</h2>
+
+                                        <p>
+                                            The Essay Writing Workshop is a
+                                            non-fiction Writing Workshop in
+                                            English designed to teach children
+                                            in the age group of 8-16 years how
+                                            to write a structured essay.
+                                        </p>
+                                        <!-- <button class="vmbtn" >View More</button> -->
+                                    </div>
+                                </div>
+                                <!-- <div class="img"> -->
+                                <!-- </div> -->
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Cards ends -->
+
+        <!-- Course -->
+        <!-- <section id="course">
+            <div class="container main-card">
+                <div
+                    class="text-center h1 car-main"
+                    style="color: var(--black)"
+                >
+                    Our
+                    <span style="color: var(--primary-color)">Courses</span>
+                </div>
+            </div>
+
+            <div class="coursescontainer">
+                <a href="#" class="cardcover">
+                    <div class="card coursecard">
+                        <div class="img-cont2">
+                            <img src="./assests/course1.jpeg" alt="" />
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">English Fundamental</h5>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="cardcover">
+                    <div class="card coursecard">
+                        <div class="img-cont2">
+                            <img src="./assests/course2.jpeg" alt="" />
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Bussiness professional course
+                            </h5>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="cardcover">
+                    <div class="card coursecard">
+                        <div class="img-cont2">
+                            <img src="./assests/course3.jpeg" alt="" />
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                English for Everyday Use​
+                            </h5>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="cardcover">
+                    <div class="card coursecard">
+                        <div class="img-cont2">
+                            <img src="./assests/course4.jpeg" alt="" />
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Business Writing Course</h5>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="cardcover">
+                    <div class="card coursecard">
+                        <div class="img-cont2">
+                            <img src="./assests/course5.jpeg" alt="" />
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">IELTS</h5>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="cardcover">
+                    <div class="card coursecard">
+                        <div class="img-cont2">
+                            <img src="./assests/course6.jpeg" alt="" />
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">TOEFL</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section> -->
+        <!-- Course ends -->
+
+        <!-- Review -->
+        <section id="review">
+            <div class="container">
+                <div
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    class="text-center h1 car-main"
+                    style="color: var(--black)"
+                >
+                    Customer
+                    <span style="color: var(--primary-color)">Review</span>
+                </div>
+            </div>
+            <div class="swiper mySwiper2 mx-sm-0 ms-md-3 mx-lg-5">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider-overlay1">
+                            <div class="row">
+                                <div class="col cust-out">
+                                    <div class="qoutes-dots"></div>
+                                    <div class="bottom">
+                                        <div class="customer-text text-justify">
+                                            <h3 class="fas fa-quote-left"></h3>
+                                            Like every ambitious mother, I too
+                                            thought this workshop would be good
+                                            for my ten year old. I was a bit
+                                            anxious and doubtful about being too
+                                            pushy. The two-day workshop for
+                                            young writers was something I
+                                            thought would be interesting and
+                                            useful for him. It was just
+                                            beautiful when my son came out
+                                            beaming from his first session! He
+                                            was waiting to be a part of it the
+                                            next day too! At the end of the
+                                            sessions, he told me that if he had
+                                            missed it, it would have been a
+                                            great loss. To inspire a
+                                            ten-year-old boy to say this is no
+                                            easy task. I am a happy mother
+                                            today.
+                                            <div class="customer-name">
+                                                -Asha
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-overlay1">
+                            <div class="row">
+                                <div class="col cust-out">
+                                    <div class="qoutes-dots"></div>
+                                    <div class="bottom">
+                                        <div class="customer-text text-justify">
+                                            <h3
+                                                class="fas fa-quote-left text-justify"
+                                            ></h3>
+                                            The Young Author Program was
+                                            extremely helpful for my daughter,
+                                            Ishmita, as it helped her improve
+                                            her ability to think and write from
+                                            different perspectives. It also
+                                            helped her in describing each
+                                            character and plot in detail. I also
+                                            noticed that the workshop has made
+                                            her contemplate each situation and
+                                            write with in-depth analyses.
+                                            Neelima has been very patient
+                                            explaining each aspect in detail.
+                                            Her passion for books has helped
+                                            ignite the spirit of writing in my
+                                            daughter.
+                                        </div>
+                                        <div class="customer-name">
+                                            -Sumieja
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="slider-overlay1">
+                            <div class="row">
+                                <div class="col cust-out">
+                                    <div class="qoutes-dots"></div>
+                                    <div class="bottom">
+                                        <div class="customer-text text-justify">
+                                            <h3
+                                                class="fas fa-quote-left text-justify"
+                                            ></h3>
+                                            The Young Author Program was a great
+                                            workshop and my daughter gained a
+                                            lot of valuable inputs through the
+                                            whole interaction! Would be happy to
+                                            be part of the next one.
+                                        </div>
+                                        <div class="customer-name">
+                                            -Keerthi
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="slider-overlay1">
+                            <div class="row">
+                                <div class="col cust-out">
+                                    <div class="qoutes-dots"></div>
+                                    <div class="bottom">
+                                        <div class="customer-text text-justify">
+                                            <h3
+                                                class="fas fa-quote-left text-justify"
+                                            ></h3>
+                                            During the course of the program,
+                                            the child is introduced to different
+                                            kinds of essays and uses tools
+                                        </div>
+                                        <div class="customer-name">-Rajani</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-overlay1">
+                            <div class="row">
+                                <div class="col cust-out">
+                                    <div class="qoutes-dots"></div>
+                                    <div class="bottom">
+                                        <div class="customer-text text-justify">
+                                            <h3 class="fas fa-quote-left"></h3>
+                                            My daughter while enjoying the
+                                            company in the YAP sessions found
+                                            the sessions relaxing and inspiring
+                                            setting the mood for creative
+                                            thinking. She picked up techniques
+                                            on story telling she was not aware
+                                            of. We are excited to see her work
+                                            in print soon.
+                                            <div class="customer-name">
+                                                -Sumathy
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next swiper2-next"></div>
+                <div class="swiper-button-prev swiper2-prev"></div>
+            </div>
+        </section>
+
+        <!-- Review Ends -->
+
+        <!-- Review Testing-->
+        <!-- <section id="review">
+            <div class="container">
+                <div
+                    class="text-center h1 car-main"
+                    style="color: var(--black)"
+                >
+                    Customer
+                    <span style="color: var(--primary-color)">Review</span>
+                </div>
+            </div>
+            <div class="swiper mySwiper3 mx-sm-0 ms-md-3 mx-lg-5">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="figcontainer">
+                            <div class="figimage">
+                                <img src="./assests/course3.jpeg" alt="" />
+                            </div>
+                            <div class="figname">Gracy Mary</div>
+                            <div class="figreview">
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Voluptate eius animi expedita
+                                velit nihil quis unde molestias dicta eaque
+                                dolorem.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="figcontainer">
+                            <div class="figimage">
+                                <img src="./assests/course6.jpeg" alt="" />
+                            </div>
+                            <div class="figname">Zoey Tucker</div>
+                            <div class="figreview">
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Voluptate eius animi expedita
+                                velit nihil quis unde molestias dicta eaque
+                                dolorem.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- Review Ends -->
+
+        <!-- Join us -->
+        <section id="joinus">
+            <div data-aos="zoom-in" data-aos-duration="1000" class="box">
+                <div class="left-box">
+                    <div class="text-container">
+                        <div class="join-heading">Join us by Subscribing</div>
+                        <div class="join-subheading">
+                            Subscribe to our newsletter to get latest updates.
+                        </div>
+                    </div>
+                </div>
+                <div class="right-box">
+                    <div class="input-box">
+                        <input
+                            type="email"
+                            placeholder="Example: example@email.com"
+                            name=""
+                            id=""
+                        />
+                    </div>
+                    <div class="btn-box">
+                        <button class="btn btn-custom2" type="button">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Join us ends -->
+
+        <!-- Contact us -->
+        <section id="contactus">
+            <div class="container mb-4">
+                <div
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    class="text-center h1 car-main"
+                    style="color: var(--black)"
+                >
+                    Contact
+                    <span style="color: var(--primary-color)">Us</span>
+                </div>
+            </div>
+            <div class="boxcontact">
+                <div class="left-box">
+                    <div class="text-container">
+                        <div class="phone mb-sm-2 mb-lg-3">
+                            <div class="contact-container">
+                                <!-- <div class="color-diff">
+                                    <i
+                                        class="fa fa-phone"
+                                        style="transform: rotate(90deg)"
+                                    ></i>
+                                </div> -->
+
+                                <!-- <div class="inner-contact">
+                                    <div class="color-diff">Call us</div>
+                                    <div class="text-diff">+91 987654321</div>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                            class="email mb-sm-2 mb-lg-3"
+                        >
+                            <div class="contact-container">
+                                <div class="color-diff">
+                                    <i class="fa fa-mail-bulk"></i>
+                                </div>
+
+                                <div class="inner-contact">
+                                    <div class="color-diff">Email</div>
+                                    <div class="text-diff">
+                                        InkedTech@email.com
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                            class="address"
+                        >
+                            <div class="contact-container">
+                                <div class="color-diff">
+                                    <i class="fa fa-address-book"></i>
+                                </div>
+
+                                <div class="inner-contact">
+                                    <div class="color-diff">Address</div>
+                                    <div class="text-diff">
+                                        Lorem ipsum, Lorem ipsum dolor,Lorem
+                                        ipsum,lorem,Lorem ipsum.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    class="right-box"
+                >
+                    <div class="dropmessage">
+                        Drop your information here. We'll get back to you
+                    </div>
+                    <form action="">
+                        <div class="input-box">
+                            <input
+                                type="text"
+                                placeholder="Full name"
+                                name=""
+                                id=""
+                            />
+                            <input
+                                type="tel"
+                                placeholder="Your phone number"
+                                name=""
+                                id=""
+                            />
+                            <textarea
+                                name="Message"
+                                id=""
+                                placeholder="Drop your message here"
+                                cols="100"
+                            ></textarea>
+                        </div>
+                        <div class="btn-box">
+                            <button class="btn btn-custom2" type="button">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Contact us ends-->
+
+        <!-- Footer -->
+        <footer class="text-center py-4 shadow-xl footer">
+            <div>
+                Copyright (C)
+                <span style="color: var(--primary-color); font-weight: 500"
+                    >Inkedtech</span
+                >. All rights reserved.
+            </div>
+        </footer>
+        <!-- Footer Ends-->
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+        <!-- aos -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                once: true,
+            });
+        </script>
+
+        <!-- Custom Js -->
+        <script src="./js/main.js"></script>
+    </body>
+</html>
